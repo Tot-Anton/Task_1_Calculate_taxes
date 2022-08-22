@@ -17,7 +17,7 @@ function array (employees, amount) {
     let maxTaxEmployees = 0;
 
     for (let i = 0; i < amount.length; i++) {
-        sum += Math.floor(amount[i] * tax * employees);
+        sum += Math.floor(amount[i] * tax * employees[i]);
     }
 
     for (let i = 0; i < employees.length; i++) {
