@@ -5,7 +5,7 @@ let employees = [5, 15, 40, 10];
 // сумма
 let amount = [10000, 25000, 50000, 100000];
 // взымаемый налог
-let tax = 1.20;
+let tax = 0.20;
 
 function array (employees, amount) {
     let sum = 0;
